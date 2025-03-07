@@ -1,0 +1,208 @@
+2025-03-07 00:27:53,049 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 1
+2025-03-07 00:27:54,101 - __main__ - ERROR - Unhandled exception in GUI mode
+Traceback (most recent call last):
+  File "E:\Agent\ai-desktop-agent\main.py", line 121, in gui_mode
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "E:\Agent\ai-desktop-agent\ui\main_window.py", line 95, in __init__
+    from core.task_manager import task_manager
+  File "E:\Agent\ai-desktop-agent\core\task_manager.py", line 676, in <module>
+    task_manager = TaskManager()
+                   ^^^^^^^^^^^^^
+  File "E:\Agent\ai-desktop-agent\core\task_manager.py", line 35, in __init__
+    from utils.deepseek_client import DeepseekClient
+  File "E:\Agent\ai-desktop-agent\utils\deepseek_client.py", line 416
+    analysis_match = re.search(r'["\'']analysis["\']\s*:\s*["\'']([^"\'']*)["\'']', response_text)
+                                      ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+2025-03-07 00:31:39,836 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 1
+2025-03-07 00:31:40,782 - dotenv.main - WARNING - Python-dotenv could not parse statement starting at line 1
+2025-03-07 00:31:40,783 - utils.deepseek_client - WARNING - WARNING: OpenRouter API key is missing - using mock responses instead
+2025-03-07 00:31:40,783 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using mock responses
+2025-03-07 00:31:40,783 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:35:04,734 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 00:35:04,735 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:43:45,469 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 00:43:45,470 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:43:53,722 - core.task_manager - ERROR - Error executing full task: No task has been analyzed yet
+2025-03-07 00:53:10,518 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 00:53:10,519 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:53:23,394 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 00:53:23,395 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:53:23,401 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 00:53:23,401 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 00:53:23,401 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-07 00:53:44,581 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741289003-gke9gytn8KBVoHkVH5fP', 'provider': 'Targon', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741289003, 'choices': [{'logprobs': {'content': [], 'refusal': []}, 'finish_reason': 'stop', 'native_finish_reason': 'stop', 'index': 0, 'message': {'role': 'assistant', 'content': 'Hey there! I’m your AI assistant, living right here on your computer to help automate tasks and save you time. Here’s what I can do:  \n\nI can take a look at your screen to fi...
+2025-03-07 01:02:19,912 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 01:02:19,912 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 01:02:34,932 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 01:02:34,932 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 01:02:34,944 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 01:02:34,945 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 01:02:34,945 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-07 01:03:06,429 - utils.deepseek_client - ERROR - API request error (attempt 1/3): 
+2025-03-07 01:03:06,430 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-07 01:03:08,428 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-07 01:03:27,871 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741289588-52XQZTUHpYsHwrlQhbXO', 'provider': 'Targon', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741289588, 'choices': [{'logprobs': {'content': [], 'refusal': []}, 'finish_reason': 'stop', 'native_finish_reason': 'stop', 'index': 0, 'message': {'role': 'assistant', 'content': 'I’m your AI assistant living right here on your computer! My job is to automate tasks for you by seeing and interacting with your screen like a human would. I can take screensh...
+2025-03-07 01:04:53,403 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-07 01:04:53,404 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-07 01:04:53,407 - core.task_manager - INFO - Analyzing task: open chrome and navigate to Python website
+2025-03-07 01:04:53,409 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-07 01:05:23,434 - utils.deepseek_client - ERROR - API request error (attempt 1/3): 
+2025-03-07 01:05:23,435 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-07 01:05:25,436 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-07 01:05:55,440 - utils.deepseek_client - ERROR - API request error (attempt 2/3): 
+2025-03-07 01:05:55,442 - utils.deepseek_client - INFO - Retrying in 4 seconds...
+2025-03-07 01:05:59,451 - utils.deepseek_client - INFO - API request attempt 3/3 to OpenRouter
+2025-03-07 01:06:30,432 - utils.deepseek_client - ERROR - API request error (attempt 3/3): 
+2025-03-07 01:06:30,435 - core.task_manager - ERROR - API error, using fallback task plan: 'NoneType' object has no attribute 'get'
+2025-03-07 01:06:32,263 - services.system_service - INFO - Executing command: powershell -Command "Write-Host 'Executing: open chrome and navigate to Python website'"
+2025-03-08 00:35:32,016 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 00:35:32,017 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 00:35:45,340 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 00:35:45,341 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 00:35:45,349 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 00:35:45,349 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 00:35:45,350 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 00:36:16,190 - utils.deepseek_client - ERROR - API request error (attempt 1/3): TimeoutError: 
+2025-03-08 00:36:16,191 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-08 00:36:18,189 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-08 00:36:48,573 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741374383-A1iFhnurnSnd4xng97Lx', 'provider': 'Chutes', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741374383, 'choices': [{'logprobs': None, 'finish_reason': 'stop', 'native_finish_reason': 'stop', 'index': 0, 'message': {'role': 'assistant', 'content': 'Hey there! I’m your AI desktop assistant, here to automate tasks and make your workflow smoother. I can take screenshots of your screen, figure out what’s displayed, and then act on it—like clicking but...
+2025-03-08 01:02:39,405 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:02:39,405 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:02:53,501 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:02:53,502 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:02:53,508 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:02:53,508 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:02:53,508 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 01:03:10,992 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741375979-wO0UmtWEEGHTmxCiX97B', 'provider': 'Chutes', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741375979, 'choices': [{'logprobs': None, 'finish_reason': 'stop', 'native_finish_reason': 'stop', 'index': 0, 'message': {'role': 'assistant', 'content': 'I’m here to help automate your desktop tasks and save you time! I can take a look at what’s on your screen, figure out what’s happening, and then take action—like clicking buttons, typing text, or navig...
+2025-03-08 01:03:46,352 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:03:46,352 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:03:46,356 - core.task_manager - INFO - Analyzing task: open Chrome and navigate to the Python website
+2025-03-08 01:03:46,357 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:03:46,357 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:03:47,308 - services.system_service - INFO - Executing command: start chrome https://www.python.com
+2025-03-08 01:03:47,497 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:03:47,498 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:03:49,322 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:03:49,323 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:03:49,323 - services.vision_service - INFO - Verifying web page: Python
+2025-03-08 01:03:49,547 - services.vision_service - INFO - Screenshot saved to: screenshots\window_1741376029324.png
+2025-03-08 01:03:49,549 - services.vision_service - INFO - Recognizing text from: screenshots\window_1741376029324.png
+2025-03-08 01:03:50,357 - services.vision_service - INFO - Text recognition completed. Found 423 characters.
+2025-03-08 01:04:42,592 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:04:42,593 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:04:42,599 - core.task_manager - INFO - Analyzing task: open chrome and search python in chrome
+2025-03-08 01:04:42,600 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:04:42,601 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:04:42,602 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 01:05:13,185 - utils.deepseek_client - ERROR - API request error (attempt 1/3): TimeoutError: 
+2025-03-08 01:05:13,186 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-08 01:05:15,211 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-08 01:05:46,188 - utils.deepseek_client - ERROR - API request error (attempt 2/3): TimeoutError: 
+2025-03-08 01:05:46,188 - utils.deepseek_client - INFO - Retrying in 4 seconds...
+2025-03-08 01:05:50,203 - utils.deepseek_client - INFO - API request attempt 3/3 to OpenRouter
+2025-03-08 01:06:21,191 - utils.deepseek_client - ERROR - API request error (attempt 3/3): TimeoutError: 
+2025-03-08 01:06:21,192 - utils.deepseek_client - ERROR - All API request attempts failed. Last error: TimeoutError: 
+2025-03-08 01:06:21,193 - core.task_manager - INFO - No actions defined for step , creating default action
+2025-03-08 01:06:21,194 - core.task_manager - INFO - No actions defined for step , creating default action
+2025-03-08 01:32:22,747 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:32:22,748 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:32:55,898 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:32:55,898 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:32:55,908 - core.task_manager - INFO - Analyzing task: open chrome and search Python official website
+2025-03-08 01:32:55,908 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:32:55,908 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:32:56,654 - services.system_service - INFO - Executing command: start chrome
+2025-03-08 01:32:56,785 - services.system_service - INFO - Performing browser interaction: search
+2025-03-08 01:32:56,789 - services.system_service - INFO - Finding and activating window: Chrome
+2025-03-08 01:32:56,789 - services.system_service - WARNING - Potential unsafe command detected: powershell -Command "
+                Add-Type @"
+                using System;
+                using System.Runtime.InteropServices;
+                public class Win32 {
+                    [DllImport("user32.dll")]
+                    [return: MarshalAs(UnmanagedType.Bool)]
+                    public static extern bool SetForegroundWindow(IntPtr hWnd);
+                    
+                    [DllImport("user32.dll")]
+                    public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+                }
+"@
+                
+                $windows = Get-Process | Where-Object {($_.MainWindowTitle -like "*Chrome*") -and ($_.MainWindowHandle -ne 0)}
+                if ($windows) {
+                    $handle = $windows.MainWindowHandle
+                    [Win32]::ShowWindow($handle, 9) # SW_RESTORE = 9
+                    [Win32]::SetForegroundWindow($handle)
+                    Write-Output "Window activated: $($windows.MainWindowTitle)"
+                    exit 0
+                } else {
+                    Write-Output "Window not found with title containing: Chrome"
+                    exit 1
+                }
+                "
+2025-03-08 01:32:58,819 - services.system_service - INFO - Moving and clicking left button at: (960, 50)
+2025-03-08 01:32:58,820 - services.system_service - INFO - Moving mouse to: (960, 50)
+2025-03-08 01:33:00,822 - services.system_service - INFO - Pressing keys: ctrl + a
+2025-03-08 01:33:01,133 - services.system_service - INFO - Pressing key: delete
+2025-03-08 01:33:01,443 - services.system_service - INFO - Simulating input: python official website
+2025-03-08 01:33:02,094 - services.system_service - INFO - Pressing key: enter
+2025-03-08 01:33:44,688 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:33:44,689 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:33:44,692 - core.task_manager - INFO - Analyzing task: then open that website and download Python
+2025-03-08 01:33:44,693 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:33:44,693 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:33:44,695 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 01:34:00,192 - utils.deepseek_client - ERROR - API request error (attempt 1/3): TimeoutError: 
+2025-03-08 01:34:00,193 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-08 01:34:02,194 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-08 01:34:18,188 - utils.deepseek_client - ERROR - API request error (attempt 2/3): TimeoutError: 
+2025-03-08 01:34:18,189 - utils.deepseek_client - INFO - Retrying in 4 seconds...
+2025-03-08 01:34:22,199 - utils.deepseek_client - INFO - API request attempt 3/3 to OpenRouter
+2025-03-08 01:34:38,187 - utils.deepseek_client - ERROR - API request error (attempt 3/3): TimeoutError: 
+2025-03-08 01:34:38,189 - utils.deepseek_client - ERROR - All API request attempts failed. Last error: TimeoutError: 
+2025-03-08 01:34:38,190 - core.task_manager - INFO - Attempting to execute unknown system action: screenshot
+2025-03-08 01:34:38,191 - core.task_manager - ERROR - Error executing step 0: Unsupported system action: screenshot
+2025-03-08 01:34:38,192 - core.task_manager - ERROR - Error executing step 1: Unsupported system action: screenshot
+2025-03-08 01:43:39,258 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:43:39,259 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:44:20,918 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:44:20,918 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:44:20,926 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:44:20,926 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:44:20,926 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 01:44:37,189 - utils.deepseek_client - ERROR - API request error (attempt 1/3): TimeoutError: 
+2025-03-08 01:44:37,189 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-08 01:44:39,200 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-08 01:44:50,173 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741378484-b5PqIorLScLhdH1Bakfj', 'provider': 'Targon', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741378484, 'choices': [{'logprobs': {'content': [], 'refusal': []}, 'index': 0, 'message': {'role': 'assistant', 'content': 'Hey there! I’m your AI desktop assistant, here to automate tasks right on your computer. I can "see" what’s on your screen, analyze open apps or windows, and take actions like clicking buttons, typing text, or navigating menus. Need ...
+2025-03-08 01:50:32,682 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:50:32,682 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:50:32,686 - core.task_manager - INFO - Analyzing task: open chrome and download python
+2025-03-08 01:50:32,687 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 01:50:32,687 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 01:50:32,688 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 01:50:48,183 - utils.deepseek_client - ERROR - API request error (attempt 1/3): TimeoutError: 
+2025-03-08 01:50:48,184 - utils.deepseek_client - INFO - Retrying in 2 seconds...
+2025-03-08 01:50:50,177 - utils.deepseek_client - INFO - API request attempt 2/3 to OpenRouter
+2025-03-08 01:51:05,186 - utils.deepseek_client - ERROR - API request error (attempt 2/3): TimeoutError: 
+2025-03-08 01:51:05,187 - utils.deepseek_client - INFO - Retrying in 4 seconds...
+2025-03-08 01:51:09,201 - utils.deepseek_client - INFO - API request attempt 3/3 to OpenRouter
+2025-03-08 01:51:25,192 - utils.deepseek_client - ERROR - API request error (attempt 3/3): TimeoutError: 
+2025-03-08 01:51:25,193 - utils.deepseek_client - ERROR - All API request attempts failed. Last error: TimeoutError: 
+2025-03-08 01:51:26,005 - core.task_manager - INFO - Attempting to execute unknown system action: screenshot
+2025-03-08 01:51:26,006 - core.task_manager - ERROR - Error executing step 0: Unsupported system action: screenshot
+2025-03-08 01:51:26,007 - core.task_manager - ERROR - Error executing step 1: Unsupported system action: screenshot
+2025-03-08 02:03:01,313 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 02:03:01,313 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 02:03:26,725 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 02:03:26,725 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 02:03:26,729 - core.task_manager - INFO - Analyzing task: Download python from Google
+2025-03-08 02:03:26,729 - utils.deepseek_client - INFO - DeepseekClient initialized with OpenRouter, using API endpoint
+2025-03-08 02:03:26,729 - utils.deepseek_client - INFO - Target model: deepseek/deepseek-r1:free
+2025-03-08 02:03:26,730 - utils.deepseek_client - INFO - API request attempt 1/3 to OpenRouter
+2025-03-08 02:03:33,776 - utils.deepseek_client - INFO - Raw API response received. First 500 chars: {'id': 'gen-1741379612-0fpyhTenEwmnjmcsHWkp', 'provider': 'Chutes', 'model': 'deepseek/deepseek-r1', 'object': 'chat.completion', 'created': 1741379612, 'choices': [{'logprobs': None, 'index': 0, 'message': {'role': 'assistant', 'content': '', 'refusal': None, 'reasoning': None}}], 'usage': {'prompt_tokens': 211, 'completion_tokens': 0, 'total_tokens': 211}}...
+2025-03-08 02:03:33,776 - utils.deepseek_client - ERROR - Response text is empty
+2025-03-08 02:03:34,224 - core.task_manager - INFO - Attempting to execute unknown system action: screenshot
+2025-03-08 02:03:34,224 - core.task_manager - ERROR - Error executing step 0: Unsupported system action: screenshot
+2025-03-08 02:03:34,224 - core.task_manager - ERROR - Error executing step 1: Unsupported system action: screenshot
