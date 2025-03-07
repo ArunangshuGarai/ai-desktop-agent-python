@@ -1,0 +1,28 @@
+ai_desktop_agent/
+├── __init__.py
+├── main.py
+├── requirements.txt
+├── assets/
+├── screenshots/
+├── generated_code/
+├── config/
+│   └── __init__.py
+├── core/
+│   ├── __init__.py
+│   └── task_manager.py
+├── services/
+│   ├── __init__.py
+│   ├── ai_service.py
+│   ├── code_service.py
+│   ├── file_service.py
+│   ├── gui_automation_service.py
+│   ├── system_service.py
+│   ├── vision_service.py
+│   └── web_service.py
+├── utils/
+│   ├── __init__.py
+│   └── deepseek_client.py
+└── ui/
+    ├── __init__.py
+    ├── main_window.py
+    └── task_panel.py

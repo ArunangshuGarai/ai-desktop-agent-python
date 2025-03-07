@@ -1,0 +1,30 @@
+# Core dependencies
+requests>=2.28.1
+python-dotenv>=1.0.0
+
+# UI dependencies
+PyQt6>=6.5.0
+
+# Browser automation
+playwright>=1.35.0
+
+# System automation
+pyautogui>=0.9.54
+pywinctl>=0.2.0
+
+# Image processing and OCR
+pillow>=9.5.0
+pytesseract>=0.3.10
+
+# File handling
+pathlib>=1.0.1
+
+# API communication
+openai>=1.0.0
+
+# Web services
+fastapi>=0.99.1
+uvicorn>=0.22.0
+
+# System integration
+pywin32>=306; platform_system=="Windows"
